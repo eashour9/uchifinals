@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import ExamRow from '@/components/ExamRow';
 import '@testing-library/jest-dom';
+import ExamRow from '@/components/ExamRow';
 import Exam from '@/lib/types';
 
 jest.mock('@/lib/calendar-utils', () => ({

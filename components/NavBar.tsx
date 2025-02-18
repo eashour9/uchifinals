@@ -18,7 +18,7 @@ export default function NavBar() {
               find your uchicago final exam schedule fast
             </p>
             <p className="text-xs md:text-sm mt-1 text-center md:text-left">
-              current quarter: <span className="font-bold">autumn 2024</span>
+              current quarter: <span className="font-bold">winter 2025</span>
             </p>
           </div>
         </Link>
