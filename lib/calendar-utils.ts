@@ -19,7 +19,13 @@ export const formatDate = (dateStr: string) => {
 
 export const formatTime = (timeStr: string) => {
   const timeParts = timeStr.split(':');
-  const [hours, minutes] = timeParts.map(Number);
+  if (timeParts.length !== 2) {
+    throw new Error(`Invalid time format: ${timeStr}`);
+  }
+  const [hours, minutes] = timeParts.map(part => {
+    const num = Number(part);
+    return isNaN(num) ? 0 : num; // Default to 0 if invalid
+  });
   const period = hours >= 12 ? 'PM' : 'AM';
   const displayHours = hours % 12 || 12; // Convert 0 to 12 for 12 AM
   return `${displayHours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')} ${period}`;

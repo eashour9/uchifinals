@@ -7,7 +7,6 @@ import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import "@/styles/globals.css";
-import { SP } from "next/dist/shared/lib/utils";
 
 const fontSans = FontSans({
   subsets: ["latin"],
