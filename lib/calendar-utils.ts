@@ -9,7 +9,15 @@ interface CalendarEvent {
 export const formatDate = (dateStr: string) => {
   const [year, month, day] = dateStr.split('T')[0].split('-').map(Number);
   const date = new Date(year, month - 1, day);
-  
+
+  if (month !== 3) {
+    return date.toLocaleDateString('en-US', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    });
+  }
+
   return date.toLocaleDateString('en-US', {
     month: '2-digit',
     day: '2-digit',
