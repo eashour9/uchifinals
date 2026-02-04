@@ -121,18 +121,6 @@ Don't forget to give the project a star! Thanks!
 
 Distributed under the MIT license. See `LICENSE.txt` for more information.
 
-<!-- CONTACT -->
-## Contact
-
-Esslam Ashour - esslamashour@uchicago.edu
-
-[Linkedin](https://www.linkedin.com/in/esslam-ashour)
-
-[Website](https://www.esslam-ashour.com)
-
-Project Link: [https://github.com/esslam-ashour/uchifinals](https://github.com/esslam-ashour/uchifinals)
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
