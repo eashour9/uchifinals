@@ -19,19 +19,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Final exams are a critical part of a student’s academic journey, but the process of retrieving and organizing final exam schedules can be time-consuming and prone to errors. At the University of Chicago, the registrar releases an Excel sheet each quarter that contains the final exam schedule for all College courses. This format, while comprehensive, is inconvenient, difficult to navigate, and prone to human error.
-
-To address this issue, I developed uchifinals—a streamlined, user-friendly web tool that simplifies the process of searching for and managing final exam schedules. By transforming a complex Excel sheet into an intuitive digital interface, uchifinals helps students quickly access relevant exam information, reducing frustration and maximizing productivity.
+User-friendly web tool that simplifies searching for and managing final exam times for UChicago undergraduate students.
 
 Key Features
-- 🔍 Powerful Search Functionality: Students can easily search for their final exams by class code, course name, or instructor. This feature significantly reduces the time spent searching through large datasets and helps students find their exam details more efficiently.
+- Search Functionality: Students can search for their final exams by class code, course name, or instructor.
 
-- 📅 Seamless Calendar Integration: With just a few clicks, students can export their final exam dates directly to Google or Apple calendars. This feature ensures that students can manage their time effectively, avoiding scheduling conflicts and staying organized.
-
-- 📊 Data Accessibility and Usability: I transformed the registrar’s traditional Excel sheet into a more accessible, user-friendly interface. This not only makes the exam schedule easier to navigate, but also ensures that students can quickly retrieve accurate information without confusion.
-
-- ✅ Error Reduction: By automating the process of searching and exporting exam schedules, uchifinals minimizes the risk of human error when interpreting or copying data from Excel files. This ensures that students have reliable, accurate exam information.
-
+- Calendar Integration: Students can export their final exam dates directly to Google or Apple calendars.
 
 
 <img width="1710" alt="image" src="https://github.com/user-attachments/assets/be33d9b9-5fa3-4449-bf68-debfb0a0098b" />
